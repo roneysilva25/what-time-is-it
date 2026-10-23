@@ -10,6 +10,6 @@ function bootstrap() {
     return app
 }
 
-bootstrap().listen(3000, () => {
+bootstrap().listen(80, () => {
     console.log("application running")
 })
